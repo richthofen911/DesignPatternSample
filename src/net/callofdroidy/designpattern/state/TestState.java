@@ -3,7 +3,7 @@ package net.callofdroidy.designpattern.state;
 /**
  * Created by admin on 05/10/15.
  */
-public class Test {
+public class TestState {
     public static void main(String[] args){
         Room[] rooms = new Room[3]; //assume the hotel as 3 rooms
 
