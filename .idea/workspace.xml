@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0bebf1ce-b100-4452-b249-d970372dc5cd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/net/callofdroidy/designpattern/singleton/DoubleCheckedLocking.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/net/callofdroidy/designpattern/singleton/EagerInitialization.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/net/callofdroidy/designpattern/singleton/EnumSingleton.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/net/callofdroidy/designpattern/singleton/LazyInitialization.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/net/callofdroidy/designpattern/singleton/StaticNestedClassPattern.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/net/callofdroidy/designpattern/singleton/TestRun.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/net/callofdroidy/designpattern/singleton/TestRun.java" afterPath="$PROJECT_DIR$/src/net/callofdroidy/designpattern/singleton/TestSingleton.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="StatePattern.iws" />
@@ -31,10 +25,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="EnumSingleton.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="EnumSingleton.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/net/callofdroidy/designpattern/singleton/EnumSingleton.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.34632036">
+            <state vertical-scroll-proportion="0.0">
               <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
               <folding>
                 <element signature="e#270#271#0" expanded="true" />
@@ -44,14 +38,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestRun.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/net/callofdroidy/designpattern/singleton/TestRun.java">
+      <file leaf-file-name="TestSingleton.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/net/callofdroidy/designpattern/singleton/TestSingleton.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
+            <state vertical-scroll-proportion="0.3409091">
+              <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
               <folding>
-                <element signature="e#157#158#0" expanded="true" />
-                <element signature="e#204#205#0" expanded="true" />
+                <element signature="e#163#164#0" expanded="true" />
+                <element signature="e#210#211#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -125,10 +119,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="670" />
-    <option name="y" value="133" />
-    <option name="width" value="1359" />
-    <option name="height" value="863" />
+    <option name="x" value="616" />
+    <option name="y" value="209" />
+    <option name="width" value="1396" />
+    <option name="height" value="841" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -225,7 +219,7 @@
     <property name="dynamic.classpath" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Application.TestRun">
+  <component name="RunManager" selected="Application.TestSingleton">
     <configuration default="false" name="TestState" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -286,14 +280,14 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="TestRun" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="TestSingleton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="net.callofdroidy.designpattern.singleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="net.callofdroidy.designpattern.singleton.TestRun" />
+      <option name="MAIN_CLASS_NAME" value="net.callofdroidy.designpattern.singleton.TestSingleton" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -610,11 +604,11 @@
       <item index="0" class="java.lang.String" itemvalue="Application.TestState" />
       <item index="1" class="java.lang.String" itemvalue="Application.TestFactoryMethod" />
       <item index="2" class="java.lang.String" itemvalue="Application.Client" />
-      <item index="3" class="java.lang.String" itemvalue="Application.TestRun" />
+      <item index="3" class="java.lang.String" itemvalue="Application.TestSingleton" />
     </list>
     <recent_temporary>
       <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Application.TestRun" />
+        <item index="0" class="java.lang.String" itemvalue="Application.TestSingleton" />
         <item index="1" class="java.lang.String" itemvalue="Application.Client" />
         <item index="2" class="java.lang.String" itemvalue="Application.TestFactoryMethod" />
         <item index="3" class="java.lang.String" itemvalue="Application.TestState" />
@@ -640,7 +634,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="670" y="133" width="1359" height="863" extended-state="0" />
+    <frame x="616" y="209" width="1396" height="841" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -650,10 +644,10 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34840426" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2912234" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34840426" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23835616" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18791452" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18292683" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -919,14 +913,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/net/callofdroidy/designpattern/singleton/DoubleCheckedLocking.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.15267175">
@@ -978,24 +964,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/callofdroidy/designpattern/singleton/TestRun.java">
+    <entry file="file://$PROJECT_DIR$/DesignPattern.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
-          <folding>
-            <element signature="e#157#158#0" expanded="true" />
-            <element signature="e#204#205#0" expanded="true" />
-          </folding>
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/net/callofdroidy/designpattern/singleton/EnumSingleton.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34632036">
+        <state vertical-scroll-proportion="0.0">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding>
             <element signature="e#270#271#0" expanded="true" />
             <element signature="e#321#322#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/callofdroidy/designpattern/singleton/TestSingleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3409091">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding>
+            <element signature="e#163#164#0" expanded="true" />
+            <element signature="e#210#211#0" expanded="true" />
           </folding>
         </state>
       </provider>
