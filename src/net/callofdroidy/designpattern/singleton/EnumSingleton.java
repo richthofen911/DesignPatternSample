@@ -6,11 +6,17 @@ package net.callofdroidy.designpattern.singleton;
  * 但为由于1.5中才加入enum特性，用这种方式写不免让人感觉生疏
  */
 public enum EnumSingleton {
-    INSTANCE;
+    INSTANCE(String message);
 
+    //data member
+    String message;
+    // 此类初始化，给INSTANCE赋参数的方法
+    public EnumSingleton(String msg){
+        message = msg;
+    }
+    
     public void output(){
         System.out.println("output method");
     }
-
-
+    
 }
