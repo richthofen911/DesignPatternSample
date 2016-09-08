@@ -2,7 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0bebf1ce-b100-4452-b249-d970372dc5cd" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/net/callofdroidy/designpattern/singleton/TestRun.java" afterPath="$PROJECT_DIR$/src/net/callofdroidy/designpattern/singleton/TestSingleton.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/net/callofdroidy/designpattern/adapter/AdvancedMediaPlayer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/net/callofdroidy/designpattern/adapter/AudioPlayer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/net/callofdroidy/designpattern/adapter/MediaAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/net/callofdroidy/designpattern/adapter/MediaPlayer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/net/callofdroidy/designpattern/adapter/Mp4Player.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/net/callofdroidy/designpattern/adapter/RunAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/net/callofdroidy/designpattern/adapter/VlcPlayer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/net/callofdroidy/designpattern/visitor/Computer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/net/callofdroidy/designpattern/visitor/ComputerPart.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/net/callofdroidy/designpattern/visitor/ComputerPartVisitor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/net/callofdroidy/designpattern/visitor/Keyboard.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/net/callofdroidy/designpattern/visitor/Monitor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/net/callofdroidy/designpattern/visitor/Mouse.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/net/callofdroidy/designpattern/visitor/RunVisitor.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/net/callofdroidy/designpattern/visitor/Visitor.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="StatePattern.iws" />
@@ -24,29 +38,23 @@
     <favorites_list name="StatePattern" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="EnumSingleton.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/net/callofdroidy/designpattern/singleton/EnumSingleton.java">
+    <leaf>
+      <file leaf-file-name="Keyboard.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/net/callofdroidy/designpattern/visitor/Keyboard.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-              <folding>
-                <element signature="e#270#271#0" expanded="true" />
-                <element signature="e#321#322#0" expanded="true" />
-              </folding>
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestSingleton.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/net/callofdroidy/designpattern/singleton/TestSingleton.java">
+      <file leaf-file-name="ComputerPartVisitor.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/net/callofdroidy/designpattern/visitor/ComputerPartVisitor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.3409091">
-              <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-              <folding>
-                <element signature="e#163#164#0" expanded="true" />
-                <element signature="e#210#211#0" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.17492712">
+              <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -108,6 +116,22 @@
         <option value="$PROJECT_DIR$/src/net/callofdroidy/designpattern/singleton/StaticNestedClassPattern.java" />
         <option value="$PROJECT_DIR$/src/net/callofdroidy/designpattern/singleton/EnumSingleton.java" />
         <option value="$PROJECT_DIR$/src/net/callofdroidy/designpattern/singleton/TestRun.java" />
+        <option value="$PROJECT_DIR$/src/net/callofdroidy/designpattern/visitor/ComputerPart.java" />
+        <option value="$PROJECT_DIR$/src/net/callofdroidy/designpattern/visitor/Keyboard.java" />
+        <option value="$PROJECT_DIR$/src/net/callofdroidy/designpattern/visitor/ComputerPartVisitor.java" />
+        <option value="$PROJECT_DIR$/src/net/callofdroidy/designpattern/visitor/Computer.java" />
+        <option value="$PROJECT_DIR$/src/net/callofdroidy/designpattern/visitor/ComputerPartVisitorInstance.java" />
+        <option value="$PROJECT_DIR$/src/net/callofdroidy/designpattern/visitor/RunVisitor.java" />
+        <option value="$PROJECT_DIR$/src/net/callofdroidy/designpattern/visitor/Monitor.java" />
+        <option value="$PROJECT_DIR$/src/net/callofdroidy/designpattern/visitor/Mouse.java" />
+        <option value="$PROJECT_DIR$/src/net/callofdroidy/designpattern/visitor/Visitor.java" />
+        <option value="$PROJECT_DIR$/src/net/callofdroidy/designpattern/adapter/MediaPlayer.java" />
+        <option value="$PROJECT_DIR$/src/net/callofdroidy/designpattern/adapter/AdvancedMediaPlayer.java" />
+        <option value="$PROJECT_DIR$/src/net/callofdroidy/designpattern/adapter/VlcPlayer.java" />
+        <option value="$PROJECT_DIR$/src/net/callofdroidy/designpattern/adapter/Mp4Player.java" />
+        <option value="$PROJECT_DIR$/src/net/callofdroidy/designpattern/adapter/MediaAdapter.java" />
+        <option value="$PROJECT_DIR$/src/net/callofdroidy/designpattern/adapter/AudioPlayer.java" />
+        <option value="$PROJECT_DIR$/src/net/callofdroidy/designpattern/adapter/RunAdapter.java" />
       </list>
     </option>
   </component>
@@ -119,10 +143,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="616" />
-    <option name="y" value="209" />
-    <option name="width" value="1396" />
-    <option name="height" value="841" />
+    <option name="x" value="1919" />
+    <option name="width" value="1922" />
+    <option name="height" value="1081" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -149,8 +172,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -186,6 +209,10 @@
               <option name="myItemId" value="designpattern" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="visitor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -204,14 +231,10 @@
               <option name="myItemId" value="designpattern" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="singleton" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -219,27 +242,7 @@
     <property name="dynamic.classpath" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Application.TestSingleton">
-    <configuration default="false" name="TestState" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="net.callofdroidy.designpattern.state.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="net.callofdroidy.designpattern.state.TestState" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="StatePattern" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.RunAdapter">
     <configuration default="false" name="TestFactoryMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -288,6 +291,46 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="net.callofdroidy.designpattern.singleton.TestSingleton" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="DesignPattern" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="RunVisitor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="net.callofdroidy.designpattern.visitor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="net.callofdroidy.designpattern.visitor.RunVisitor" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="DesignPattern" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="RunAdapter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="net.callofdroidy.designpattern.adapter.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="net.callofdroidy.designpattern.adapter.RunAdapter" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -600,18 +643,20 @@
       <envs />
       <method />
     </configuration>
-    <list size="4">
-      <item index="0" class="java.lang.String" itemvalue="Application.TestState" />
-      <item index="1" class="java.lang.String" itemvalue="Application.TestFactoryMethod" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Client" />
-      <item index="3" class="java.lang.String" itemvalue="Application.TestSingleton" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Application.TestFactoryMethod" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Client" />
+      <item index="2" class="java.lang.String" itemvalue="Application.TestSingleton" />
+      <item index="3" class="java.lang.String" itemvalue="Application.RunVisitor" />
+      <item index="4" class="java.lang.String" itemvalue="Application.RunAdapter" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Application.TestSingleton" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Client" />
-        <item index="2" class="java.lang.String" itemvalue="Application.TestFactoryMethod" />
-        <item index="3" class="java.lang.String" itemvalue="Application.TestState" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Application.RunAdapter" />
+        <item index="1" class="java.lang.String" itemvalue="Application.RunVisitor" />
+        <item index="2" class="java.lang.String" itemvalue="Application.TestSingleton" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Client" />
+        <item index="4" class="java.lang.String" itemvalue="Application.TestFactoryMethod" />
       </list>
     </recent_temporary>
   </component>
@@ -634,8 +679,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="616" y="209" width="1396" height="841" extended-state="0" />
-    <editor active="true" />
+    <frame x="1919" y="0" width="1922" height="1081" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -644,10 +689,10 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32932165" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34840426" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23835616" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26391754" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17113402" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18292683" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1515625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -685,47 +730,7 @@
     <entry file="file://$PROJECT_DIR$/src/net/callofdroidy/designpattern/abstractfactory/Factory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#194#195#0" expanded="false" />
-            <element signature="e#243#244#0" expanded="false" />
-            <element signature="e#296#297#0" expanded="false" />
-            <element signature="e#345#346#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/callofdroidy/designpattern/abstractfactory/IProductTypeA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/callofdroidy/designpattern/abstractfactory/IProductTypeB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/callofdroidy/designpattern/abstractfactory/IFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="7" column="44" selection-start-line="7" selection-start-column="44" selection-end-line="7" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/callofdroidy/designpattern/abstractfactory/Factory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
           <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
-          <folding>
-            <element signature="e#194#195#0" expanded="false" />
-            <element signature="e#243#244#0" expanded="false" />
-            <element signature="e#296#297#0" expanded="false" />
-            <element signature="e#345#346#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -733,7 +738,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -902,7 +906,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.51689863">
           <caret line="13" column="49" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -917,7 +920,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.15267175">
           <caret line="4" column="36" selection-start-line="4" selection-start-column="36" selection-end-line="4" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -925,12 +927,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.45801526">
           <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-          <folding>
-            <element signature="e#194#195#0" expanded="false" />
-            <element signature="e#243#244#0" expanded="false" />
-            <element signature="e#296#297#0" expanded="false" />
-            <element signature="e#345#346#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -938,7 +934,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.57251906">
           <caret line="15" column="5" selection-start-line="8" selection-start-column="4" selection-end-line="15" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -946,10 +941,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.41984734">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <element signature="e#482#483#0" expanded="true" />
-            <element signature="e#513#514#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -957,10 +948,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.27722773">
           <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-          <folding>
-            <element signature="e#581#582#0" expanded="true" />
-            <element signature="e#628#629#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -968,7 +955,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -976,18 +962,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/callofdroidy/designpattern/singleton/EnumSingleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="e#270#271#0" expanded="true" />
-            <element signature="e#321#322#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -995,10 +969,154 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3409091">
           <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/callofdroidy/designpattern/singleton/EnumSingleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3030303">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/callofdroidy/designpattern/visitor/Monitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
-            <element signature="e#163#164#0" expanded="true" />
-            <element signature="e#210#211#0" expanded="true" />
+            <element signature="e#213#214#0" expanded="true" />
+            <element signature="e#260#261#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/callofdroidy/designpattern/visitor/Mouse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <folding>
+            <element signature="e#212#213#0" expanded="false" />
+            <element signature="e#259#260#0" expanded="false" />
+            <element signature="e#287#288#0" expanded="false" />
+            <element signature="e#336#337#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/callofdroidy/designpattern/visitor/ComputerPart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17492712">
+          <caret line="6" column="57" selection-start-line="6" selection-start-column="57" selection-end-line="6" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/callofdroidy/designpattern/visitor/Visitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="e#197#198#0" expanded="false" />
+            <element signature="e#255#256#0" expanded="false" />
+            <element signature="e#419#420#0" expanded="false" />
+            <element signature="e#477#478#0" expanded="false" />
+            <element signature="e#532#533#0" expanded="false" />
+            <element signature="e#589#590#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/callofdroidy/designpattern/visitor/Computer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="45" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/callofdroidy/designpattern/adapter/RunAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17492712">
+          <caret line="6" column="43" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/callofdroidy/designpattern/adapter/AdvancedMediaPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20408164">
+          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/callofdroidy/designpattern/adapter/MediaPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17492712">
+          <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/callofdroidy/designpattern/adapter/VlcPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4664723">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="e#200#201#0" expanded="true" />
+            <element signature="e#273#274#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/callofdroidy/designpattern/adapter/Mp4Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.40816328">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding>
+            <element signature="e#284#285#0" expanded="true" />
+            <element signature="e#357#358#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/callofdroidy/designpattern/adapter/MediaAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34985423">
+          <caret line="12" column="52" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/callofdroidy/designpattern/adapter/AudioPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.58309036">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/callofdroidy/designpattern/visitor/RunVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.32069972">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/callofdroidy/designpattern/visitor/Keyboard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/callofdroidy/designpattern/visitor/ComputerPartVisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17492712">
+          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+          <folding />
         </state>
       </provider>
     </entry>
